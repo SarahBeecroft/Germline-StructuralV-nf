@@ -78,6 +78,7 @@ When you run the pipeline, you will use the mandatory `--ref` parameter to speci
 --ref /path/to/reference.fasta
 ```
 Note that Tiddit expects the BWA index files to be in the same directory as the reference fasta file.
+Note that you must specify the full path for the reference fasta, even if it is in your working directory.
 
 **Download the AnnotSV database and supporting files (optional)** 
 
